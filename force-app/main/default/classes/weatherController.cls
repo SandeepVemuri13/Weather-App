@@ -13,7 +13,7 @@ public with sharing class WeatherController {
         if (response.getStatusCode() == 200) {
             return response.getBody();
         } else {
-            return 'Error fetching weather data';
+            return 'Error fetching the weather data';
         }
     }
 }
